@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+    text-decoration: none;
+}
+
+html,
+body {
+    Height: 100%;
+    Width: 100%;
+}
+
+#main {
+    Height: 100%;
+    Width: 100%;
+
+}
+
+#page1 {
+    background-color: rgb(32, 32, 31);
+    Height: 100%;
+    Width: 100%;
+    background-image: url(Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#nav {
+    height: 8%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 40px;
+}
+
+#nav2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#h {
+    padding-top: 80px;
+    margin-left: -120px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+#Left {
+    Height: 100%;
+    Width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-size: 25px;
+    font-weight: 600px;
+    text-align: center;
+    line-height: 1.8;
+    padding-left: 150px;
+    color: rgb(212, 154, 253);
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: rgb(56, 0, 129);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Left h3 {
+    color: rgb(255, 29, 29);
+}
+
+#right {
+    Height: 100%;
+    Width: 50%;
+}
+
+button {
+    background-color: rgb(17, 255, 0);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: rgb(250, 250, 255);
+}
+
+#page2 {
+    Height: 100%;
+    Width: 100%;
+    overflow-x: hidden;
+}
+
+#page2 nav {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#others {
+    background-color: rgb(0, 13, 61);
+    height: calc(100% - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#one {
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    object-position: center;
+    object-fit: cover;
+
+}
+#two {
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    object-position: center;
+    object-fit: cover;
+
+}
+#three {
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    object-position: center;
+    object-fit: cover;
+
+}
+
+#one img {
+    scale: 0.5;
+    transform: translate(-58%, -60%);
+}
+#two img {
+    scale: 0.5;
+    transform: translate(-58%, -60%);
+}
+#three img {
+    scale: 0.5;
+    transform: translate(-58%, -60%);
+}
+
+@media (max-width:600px) {
+
+    #nav {
+        height: 4%;
+    }
+
+    #nav i {
+        display: block;
+    }
+
+    #nav img {
+        display: none;
+    }
+
+    #nav h3 {
+        display: none;
+    }
+
+    #nav {
+        background-color: rgb(0, 0, 0);
+    }
+
+    #page1 {
+        height: 300%;
+    }
+
+    #h {
+        flex-direction: column;
+        font-size: 5px;
+        padding: 0;
+    }
+
+}

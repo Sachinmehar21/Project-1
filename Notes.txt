@@ -1,0 +1,3 @@
+Favicons
+webkit text stroke
+and color transparent
